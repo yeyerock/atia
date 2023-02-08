@@ -1,0 +1,166 @@
+/******* Medium Small Device >= 568px ***********/
+@media screen and (min-width:35.5rem) and (max-width:63rem) and (orientation:landscape){
+
+    /* Banner */
+
+    #section_banner {
+
+        .video_vertical{
+            display: none;
+        }
+
+        .video_horizontal{
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+        }
+    }
+
+    // Section Intro
+
+    #section_intro{
+
+        .card{
+
+            .img_card{
+                height: 220px !important;
+            }
+        }
+    }
+
+    //Section Productos
+
+    #section_productos{
+
+        .img_card{
+            height: 300px !important;
+        }
+    }
+
+    //Section Ventajas
+
+    #section_ventajas{
+        .img_ventaja{
+            width: 30% !important;
+        }
+    }
+
+    
+}
+
+
+/* Ipad 768px */
+@media only screen and (min-width:48rem) and (orientation:portrait){
+
+     /* Banner */
+
+     #section_banner{
+
+        .video_vertical{
+            display: none;
+        }
+
+        .video_horizontal{
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+        }
+     } 
+
+     // Section Intro
+
+    #section_intro{
+
+        .card{
+
+            .img_card{
+                height: 220px !important;
+            }
+        }
+    }
+
+     //Section Ventajas
+
+     #section_ventajas{
+        .img_ventaja{
+            width: 30% !important;
+        }
+    }
+
+
+
+
+    
+}
+
+/* Normal Desktop >= 1024px */
+@media only screen and (min-width:64rem) and  (orientation:landscape){
+
+    /* Banner */
+
+    #section_banner{
+
+        .video_vertical{
+            display: none;
+        }
+
+        .video_horizontal{
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+        }
+    } 
+
+    //Section Productos
+
+    #section_productos{
+
+        .img_card{
+            height: 400px !important;
+        }
+    }
+    
+     //Section Ventajas
+
+     #section_ventajas{
+        .img_ventaja{
+            width: 30% !important;
+        }
+    }
+    
+    
+}
+
+/* Ipad Pro Vertical */
+@media only screen and (min-width:64rem) and  (orientation:portrait){
+
+    
+}
+
+/*Medium Small Desktop >= 1333px*/
+@media only screen and (min-width: 83rem){
+
+
+}
+
+/*Medium Small Desktop >= 1440px*/
+@media only screen and (min-width:90rem){
+   
+
+}
+
+/* Super Large Desktop > 1720 */
+@media only screen and (min-width:108rem){
+
+    
+}
+
+@media only screen and (min-width:120rem){
+
+  
+}
+
+@media only screen and (min-width:160rem){
+
+    
+}

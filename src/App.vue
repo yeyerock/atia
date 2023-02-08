@@ -1,28 +1,162 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <v-app>
+      <MenuComp/>
+      <router-view/>
+      <FooterComp/>
+    </v-app>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
+  import MenuComp from '@/components/MenuComp.vue'
+  import FooterComp from '@/components/FooterComp.vue'
+
+
+  export default {
+
+    name: 'HomeView',
+
+    components: {
+      MenuComp,  FooterComp
+    }
+
   }
-}
+
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss">
+
+  :root{
+    --blanco: #ffffff;
+    --negro: #000000;
+    --azul: #0F70B7;
+    --azul-oscuro: #267EBE;
+    --verde: #25D366;
+    --turquesa: #0B94C9;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  #app {
+
+    /*Generales*/
+
+    .titulo{
+      font-family: "good-times", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      color: var(--azul-oscuro);
+    }
+
+    .titulo_card{
+      font-family: "good-times", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: var(--azul-oscuro);
+    }
+
+    .texto{
+      font-family: "poppins", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: var(--negro);
+    }
+
+    .boton{
+      background: var(--azul-oscuro);
+    }
+
+    .boton_whats{
+      background: var(--verde);
+    }
+
+    .enlace_boton{
+      color: var(--blanco);
+    }
+
+    .enlace{
+      font-family: "good-times", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .reveal {
+      position: relative;
+      opacity: 0;    
+    }
+  
+   .reveal.active {
+      opacity: 1;
+    } 
+
+    .active.fade-left{
+      -webkit-animation: fade-left 1s ease-in;
+              animation: fade-left 1s ease-in;
+  }
+  
+  
+  @-webkit-keyframes fade-left {
+      0% {
+        -webkit-transform: translateX(-100px);
+                transform: translateX(-100px);
+        opacity: 0;
+      }
+      100% {
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+        opacity: 1;
+      }
+    }
+  
+  
+  @keyframes fade-left {
+      0% {
+        -webkit-transform: translateX(-100px);
+                transform: translateX(-100px);
+        opacity: 0;
+      }
+      100% {
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+        opacity: 1;
+      }
+    }
+
+    .active.fade-right{
+      -webkit-animation: fade-right 1.5s ease-in;
+              animation: fade-right 1.5s ease-in;
+  }
+  
+  
+  @-webkit-keyframes fade-right {
+      0% {
+        -webkit-transform: translateX(100px);
+                transform: translateX(100px);
+        opacity: 0;
+      }
+      100% {
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+        opacity: 1;
+      }
+    }
+  
+  
+  @keyframes fade-right {
+      0% {
+        -webkit-transform: translateX(100px);
+                transform: translateX(100px);
+        opacity: 0;
+      }
+      100% {
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+        opacity: 1;
+      }
+    }
+  }
 </style>
