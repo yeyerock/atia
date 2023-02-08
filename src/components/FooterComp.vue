@@ -3,7 +3,7 @@
         <v-container >
             <v-row class="justify-center align-center">            
                 <v-col 
-                    cols="7"
+                    cols="6"
                     sm="3" 
                     md="3"
                     lg="2 "
@@ -21,7 +21,6 @@
                 >                                            
                     <a class="enlace my-2 text-center text-sm-end d-inline-block" target="_blank" href="">Física 14 Industrial Querétaro,  Qro.</a>
                     <a class="enlace my-2 text-center text-sm-end d-inline-block" href="tel:+524426291735">(442) 629 17 35</a>  
-                    <a class="enlace my-2 text-center text-sm-end d-inline-block" href="tel:+524426291735">(442) 629 17 35</a>
                     <p class="texto my-2 text-center text-sm-end text-uppercase">Atia Corporativo Tecnológico | 2023</p>
                 </v-col>
             </v-row>

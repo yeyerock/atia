@@ -38,6 +38,7 @@
             </v-row>
 
             <v-row
+                id="etiquetas_especiales"
                 class="justify-center mb-5 mb-lg-10 reveal fade-right"
             >
                 <v-col 
@@ -54,7 +55,7 @@
                 <v-col
                     sm="7"
                     md="7"
-                    lg="5"
+                    lg="5"                    
                 >
                     <v-container>
                         <h1 class="titulo mb-3">Etiquetas especiales</h1>
@@ -66,10 +67,9 @@
                         > 
                             <v-col>
                                 <v-btn 
-                                    class=" boton_whats"   
-                                    dark                         
+                                    class=" boton_whats"          
                                 >
-                                    Cotizar proyecto <v-icon class="mx-2">mdi-whatsapp</v-icon>                   
+                                    <a href="https://api.whatsapp.com/send?phone=5214441787150&text=Hola%20necesito%20información%20sobre%20etiquetas%20especiales" class="enlace_boton" target="_blank">Cotizar proyecto <v-icon class="mx-2">mdi-whatsapp</v-icon>           </a>
                                 </v-btn>
                             </v-col>
 
@@ -86,6 +86,7 @@
             </v-row>
 
             <v-row
+                id="etiquetas_blancas"
                 class="justify-center mb-5 mb-lg-10 reveal fade-left"
             >
                 <v-col 
@@ -113,10 +114,9 @@
                         > 
                             <v-col>
                                 <v-btn 
-                                    class=" boton_whats"   
-                                    dark                         
+                                class=" boton_whats"          
                                 >
-                                    Cotizar proyecto <v-icon class="mx-2">mdi-whatsapp</v-icon>                   
+                                    <a href="https://api.whatsapp.com/send?phone=5214441787150&text=Hola%20necesito%20información%20sobre%20etiquetas%20en%20blanco" class="enlace_boton" target="_blank">Cotizar proyecto <v-icon class="mx-2">mdi-whatsapp</v-icon>           </a>
                                 </v-btn>
                             </v-col>
 
@@ -133,6 +133,7 @@
             </v-row>
 
             <v-row
+                id="proyectos_integrales"
                 class="justify-center mb-5 mb-lg-10 reveal fade-right"
             >
                 <v-col 
@@ -161,10 +162,9 @@
                         > 
                             <v-col>
                                 <v-btn 
-                                    class=" boton_whats"   
-                                    dark                         
+                                    class=" boton_whats"          
                                 >
-                                    Cotizar proyecto <v-icon class="mx-2">mdi-whatsapp</v-icon>                   
+                                    <a href="https://api.whatsapp.com/send?phone=5214441787150&text=Hola%20necesito%20información%20sobre%20proyectos%20integrales" class="enlace_boton" target="_blank">Cotizar proyecto <v-icon class="mx-2">mdi-whatsapp</v-icon>           </a>
                                 </v-btn>
                             </v-col>
 
@@ -181,6 +181,7 @@
             </v-row>
 
             <v-row
+                id="hardware_software"
                 class="justify-center mb-5 mb-lg-10  reveal fade-left"
             >
                 <v-col 
@@ -208,10 +209,9 @@
                         > 
                             <v-col>
                                 <v-btn 
-                                    class=" boton_whats"   
-                                    dark                         
+                                    class=" boton_whats"          
                                 >
-                                    Cotizar proyecto <v-icon class="mx-2">mdi-whatsapp</v-icon>                   
+                                    <a href="https://api.whatsapp.com/send?phone=5214441787150&text=Hola%20necesito%20información%20sobre%20hardware%20y%20software" class="enlace_boton" target="_blank">Cotizar proyecto <v-icon class="mx-2">mdi-whatsapp</v-icon>           </a>
                                 </v-btn>
                             </v-col>
 
@@ -228,6 +228,7 @@
             </v-row>
 
             <v-row
+                id="etiquetas_impresas"
                 class="justify-center mb-5 mb-lg-10 reveal fade-right"
             >
                 <v-col 
@@ -261,10 +262,9 @@
                         > 
                             <v-col>
                                 <v-btn 
-                                    class=" boton_whats"   
-                                    dark                         
+                                    class=" boton_whats"          
                                 >
-                                    Cotizar proyecto <v-icon class="mx-2">mdi-whatsapp</v-icon>                   
+                                    <a href="https://api.whatsapp.com/send?phone=5214441787150&text=Hola%20necesito%20información%20sobre%20etiquetas%20impresas" class="enlace_boton" target="_blank">Cotizar proyecto <v-icon class="mx-2">mdi-whatsapp</v-icon>           </a>
                                 </v-btn>
                             </v-col>
 

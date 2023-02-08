@@ -11,9 +11,8 @@
             <li v-on:click="cerrar()" class=" mx-3"><router-link class="enlace " to="/rfid">Conoce el RFID</router-link> </li>
 		
 			<div class="cont_redes d-flex justify-content-center mx-auto">
-				<div class=" mx-2 "><a class="enlace" target="_blank" href="https://www.instagram.com/studio.tantrico/" ><v-icon class="icono">mdi-instagram</v-icon></a></div>
-                <div class=" mx-2 "><a class="enlace"  target="_blank" href="https://twitter.com/LauMasajista"><v-icon class="icono">mdi-twitter</v-icon></a></div>
-				<div class=" mx-2 "><a class="enlace" target="_blank"  href="https://api.whatsapp.com/send?phone=5214426802582&text=Hola%20necesito%20información%20sobre%20los%20masajes%20!"><v-icon class="icono">mdi-whatsapp</v-icon></a></div>
+				<div class=" mx-2 "><a class="enlace" target="_blank" href="https://www.instagram.com/" ><v-icon class="icono">mdi-instagram</v-icon></a></div>
+				<div class=" mx-2 "><a class="enlace" target="_blank"  href="https://api.whatsapp.com/send?phone=5214441787150&text=Hola%20necesito%20información%20sobre%20etiquetas"><v-icon class="icono">mdi-email-outline</v-icon></a></div>
             </div>
 		</ul>
 		
@@ -46,7 +45,7 @@
     }
 
     .navbar .logo .logo_menu{
-        width: 10rem;
+        width: 7rem;
         height: auto;
     }
 
