@@ -30,11 +30,9 @@
                     cols="10"
                     sm="4"
                 >
-                    <v-img 
-                        class="img_cuentanos mx-auto"
-                        src="../../assets/images/rfid/proyecto.png"
-                    >
-                    </v-img>
+                <div class="img_cuentanos mx-auto mb-8 reveal fade-left">
+                    <lottie-player src="https://lottie.host/709cd786-3f07-466d-97db-994ada5432e8/Wmwaxl0u0N.json" background="transparent" speed="1"  loop autoplay></lottie-player>
+                </div>
                 </v-col>
             </v-row>
         </v-container>
