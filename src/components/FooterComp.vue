@@ -21,12 +21,27 @@
                 >                                            
                     <a class="enlace my-2 text-center text-sm-end d-inline-block" target="_blank" href="">Física 14 Industrial Querétaro,  Qro.</a>
                     <a class="enlace my-2 text-center text-sm-end d-inline-block" href="tel:+524426291735">(442) 629 17 35</a>  
-                    <p class="texto my-2 text-center text-sm-end text-uppercase">Atia Corporativo Tecnológico | 2023</p>
+                    <p class="texto my-2 text-center text-sm-end text-uppercase">Atia Corporativo Tecnológico | {{fecha}}</p>
                 </v-col>
             </v-row>
         </v-container>
     </footer>
 </template>
+
+<script>
+    export default {
+        data(){
+            return{
+                fecha: '',
+            }        
+        },
+        created(){
+            var date = new Date();
+            this.fecha = date.getFullYear();
+        }
+
+    }
+</script>
 
 <style lang="scss">
 
