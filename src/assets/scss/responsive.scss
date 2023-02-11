@@ -71,6 +71,10 @@
 
     #section_intro{
 
+        .cont_btn_inicio{
+            margin-top: -5%;
+        }
+
         .card{
 
             .img_card{
@@ -111,6 +115,16 @@
         }
     } 
 
+     // Section Intro
+
+     #section_intro{
+
+        .cont_btn_inicio{
+            margin-top: -5%;
+        }
+    }
+
+
     //Section Productos
 
     #section_productos{
@@ -140,18 +154,34 @@
 /*Medium Small Desktop >= 1333px*/
 @media only screen and (min-width: 83rem){
 
+    // Section Intro
 
+    #section_intro{
+
+        .cont_btn_inicio{
+            margin-top: -3.5% !important;
+        }
+    }
 }
 
 /*Medium Small Desktop >= 1440px*/
 @media only screen and (min-width:90rem){
    
+    
 
 }
 
 /* Super Large Desktop > 1720 */
 @media only screen and (min-width:108rem){
 
+        // Section Intro
+
+    #section_intro{
+
+        .cont_btn_inicio{
+            margin-top: -2.5% !important;
+        }
+    }
     
 }
 

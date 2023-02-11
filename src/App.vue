@@ -37,8 +37,22 @@
     --turquesa: #0B94C9;
   }
 
+  html {
+    scroll-behavior: smooth;
+    scroll-margin-top: 5rem;
+  }
+
   a{
     text-decoration: none;
+  }
+
+  ul {
+      padding: 0;
+      margin: 0;
+  }
+
+  li{
+    list-style: none;
   }
 
   #app {

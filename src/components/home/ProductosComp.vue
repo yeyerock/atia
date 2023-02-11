@@ -2,14 +2,14 @@
     <section id="section_productos">
         <v-container>
             <v-row
-                class="justify-center mb-5 mb-lg-10 reveal fade-left"
+                class="justify-center cont_fila reveal fade-left"
             >
                 <v-col 
                     cols="10"
-                    sm="4"
+                    sm="4"                    
                 >  
                     <v-img 
-                        class="img_producto"
+                        class="img_producto mx-auto"
                             position="center center"
                             src="../../assets/images/productos/rfid.jpg"
                     >
@@ -39,15 +39,16 @@
 
             <v-row
                 id="etiquetas_especiales"
-                class="justify-center mb-5 mb-lg-10 reveal fade-right"
+                class="justify-center cont_fila reveal fade-right"
             >
                 <v-col 
                     cols="10"
                     sm="4"
+                    
                     order="sm-last"
                 >
                     <v-img 
-                        class="img_producto"
+                        class="img_producto mx-auto"
                         src="../../assets/images/productos/especiales.jpg"
                     >
                     </v-img>
@@ -69,7 +70,7 @@
                                 <v-btn 
                                     class=" boton_whats"          
                                 >
-                                    <a href="https://api.whatsapp.com/send?phone=5214441787150&text=Hola%20necesito%20información%20sobre%20etiquetas%20especiales" class="enlace_boton" target="_blank">Cotizar proyecto <v-icon class="mx-2">mdi-whatsapp</v-icon>           </a>
+                                    <a href="https://api.whatsapp.com/send?phone=5214441787150&text=Hola%20necesito%20información%20sobre%20etiquetas%20especiales" class="enlace_boton" target="_blank">Cotizar proyecto <v-icon class="mx-2">mdi-whatsapp</v-icon></a>
                                 </v-btn>
                             </v-col>
 
@@ -87,14 +88,15 @@
 
             <v-row
                 id="etiquetas_blancas"
-                class="justify-center mb-5 mb-lg-10 reveal fade-left"
+                class="justify-center cont_fila reveal fade-left"
             >
                 <v-col 
                     cols="10"
                     sm="4"
+                    
                 >
                     <v-img 
-                        class="img_producto"
+                        class="img_producto mx-auto"
                         src="../../assets/images/productos/blanco.jpg"
                     >
                     </v-img>
@@ -134,15 +136,16 @@
 
             <v-row
                 id="proyectos_integrales"
-                class="justify-center mb-5 mb-lg-10 reveal fade-right"
+                class="justify-center cont_fila reveal fade-right"
             >
                 <v-col 
                     cols="10"
                     sm="4"
+                    
                     order="sm-last"
                 >
                     <v-img 
-                        class="img_producto"
+                        class="img_producto mx-auto"
                          src="../../assets/images/productos/proyectos.jpg"
                     >
                     </v-img>
@@ -182,14 +185,15 @@
 
             <v-row
                 id="hardware_software"
-                class="justify-center mb-5 mb-lg-10  reveal fade-left"
+                class="justify-center cont_fila  reveal fade-left"
             >
                 <v-col 
                     cols="10"
                     sm="4"
+                    
                 >
                     <v-img 
-                        class="img_producto"
+                        class="img_producto mx-auto"
                         src="../../assets/images/productos/hardware.jpg"
                     >
                     </v-img>
@@ -229,15 +233,16 @@
 
             <v-row
                 id="etiquetas_impresas"
-                class="justify-center mb-5 mb-lg-10 reveal fade-right"
+                class="justify-center cont_fila reveal fade-right"
             >
                 <v-col 
                     cols="10"
                     sm="4"
+                    
                     order="sm-last"
                 > 
                     <v-img 
-                        class="img_producto"
+                        class="img_producto mx-auto"
                         src="../../assets/images/productos/impresas.jpg"
                     >
                     </v-img>
@@ -285,11 +290,18 @@
 </template>
 
 <style lang="scss">
-#section_productos{
+    #section_productos{
+        .cont_fila{
+            padding-top: 90px;
+        }
 
-    .img_producto{
-        width: 85%;
-        border-radius: 14px;
+        .cont_fila:nth-child(6){
+            padding-bottom: 90px;
+        }       
+
+        .img_producto{
+            width: 85%;
+            border-radius: 14px;
+        }
     }
-}
 </style>
