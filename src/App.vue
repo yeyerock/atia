@@ -73,6 +73,13 @@
       color: var(--azul-oscuro);
     }
 
+    .titulo_lottie{
+      font-family: "poppins", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      color: var(--azul-oscuro);
+    }
+
     .texto{
       font-family: "poppins", sans-serif;
       font-weight: 400;

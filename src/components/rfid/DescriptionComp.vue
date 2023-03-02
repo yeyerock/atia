@@ -2,7 +2,7 @@
     <section id="section_description">
         <v-container>
             <v-row 
-                class="justify-center align-center mb-5 mb-lg-10"
+                class="justify-center align-start mb-5 mb-lg-10"
             >
                 <v-col 
                     class=""
@@ -45,7 +45,7 @@
 <style lang="scss">
 
     #section_description{
-        margin-top: 56px;
+        margin-top: 100px;
     }
 
 </style>

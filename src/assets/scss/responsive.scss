@@ -28,6 +28,17 @@
         }
     }
 
+     //Section Proceso
+
+     #section_proceso{
+
+        .cont_lottie{
+            width: 60% !important;
+        }
+
+    }
+
+
     //Section Productos
 
     #section_productos{
@@ -77,10 +88,24 @@
 
         .card{
 
+            .titulo_card{
+                font-size: 1rem;
+            }
+
             .img_card{
                 height: 220px !important;
             }
         }
+    }
+
+     //Section Proceso
+
+     #section_proceso{
+
+        .cont_lottie{
+            width: 60% !important;
+        }
+
     }
 
      //Section Ventajas
@@ -121,6 +146,22 @@
 
         .cont_btn_inicio{
             margin-top: -5%;
+        }
+
+        .card{
+
+            .titulo_card{
+                font-size: 1rem;
+            }
+        }
+    }
+
+     //Section Proceso
+
+     #section_proceso{
+
+        .cont_lottie{
+            width: 60% !important;
         }
     }
 
@@ -166,8 +207,32 @@
 
 /*Medium Small Desktop >= 1440px*/
 @media only screen and (min-width:90rem){
+
+    .titulo{
+        font-size: 1.5rem !important;
+    }
    
-    
+    #section_intro{
+        .card{
+
+            .titulo_card{
+                font-size: 1.3rem;
+            }
+            .img_card{
+                height: auto !important;
+            }
+        }
+    }
+
+     //Section Proceso
+
+     #section_proceso{
+
+        .cont_lottie{
+            width: 70% !important;
+        }
+    }
+     
 
 }
 

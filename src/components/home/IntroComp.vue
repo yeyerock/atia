@@ -23,6 +23,7 @@
                     cols="10"
                     sm="5"
                     md="3"
+                    lg="2"
                 >
                     <a href="#etiquetas_impresas">
                         <div class="card mb-5">
@@ -45,6 +46,7 @@
                     cols="10"
                     sm="5"
                     md="3"
+                    lg="2"
                 >   
                     <a href="#etiquetas_especiales">
                         <div class="card mb-5">
@@ -67,6 +69,7 @@
                     cols="10"
                     sm="5"
                     md="3"
+                    lg="2"
                 >
                     <a href="#hardware_software">
                         <div class="card mb-5">
@@ -89,6 +92,7 @@
                     cols="10"
                     sm="5"
                     md="3"
+                    lg="2"
                 >
                     <a href="#proyectos_integrales">
                         <div class="card mb-5">
@@ -97,6 +101,30 @@
                             <div class="img_card">
                                 <v-img class="img"
                                 src="../../assets/images/cards/proyectos.jpg"
+                                >
+                                </v-img>
+                                <div class="capa"></div>
+                            </div>
+                                
+                        </div> 
+                    </a>     
+                </v-col>
+
+                <v-col
+                    align="center"
+                    justify="center"
+                    cols="10"
+                    sm="5"
+                    md="3"
+                    lg="2"
+                >
+                    <a href="#etiquetas_rfid">
+                        <div class="card mb-5">
+                            <h1 class="titulo_card text-uppercase mb-3">Sistemas RFID</h1>
+            
+                            <div class="img_card">
+                                <v-img class="img"
+                                src="../../assets/images/cards/rfid.jpg"
                                 >
                                 </v-img>
                                 <div class="capa"></div>

@@ -2,6 +2,7 @@
     <section id="section_productos">
         <v-container>
             <v-row
+                id="etiquetas_rfid"
                 class="justify-center cont_fila reveal fade-left"
             >
                 <v-col 
@@ -78,7 +79,7 @@
                                 <v-btn 
                                     class=" boton"                                                               
                                 >
-                                    <a class="enlace_boton" target="_blank" href="/catalogos/ATIAFOLDER.pdf">Catálogo <v-icon class="mx-2">mdi-arrow-collapse-down</v-icon> </a>
+                                    <a class="enlace_boton" target="_blank" href="/catalogos/PORTFOLIO_etiquetas.pdf">Catálogo <v-icon class="mx-2">mdi-arrow-collapse-down</v-icon> </a>
                                 </v-btn>
                             </v-col>
                         </v-row>
@@ -121,14 +122,6 @@
                                     <a href="https://api.whatsapp.com/send?phone=5214441787150&text=Hola%20necesito%20información%20sobre%20etiquetas%20en%20blanco" class="enlace_boton" target="_blank">Cotizar proyecto <v-icon class="mx-2">mdi-whatsapp</v-icon>           </a>
                                 </v-btn>
                             </v-col>
-
-                            <v-col>
-                                <v-btn 
-                                    class=" boton"                                                               
-                                >
-                                    <a class="enlace_boton" target="_blank" href="/catalogos/ATIAFOLDER.pdf">Catálogo <v-icon class="mx-2">mdi-arrow-collapse-down</v-icon> </a>
-                                </v-btn>
-                            </v-col>
                         </v-row>
                     </v-container>                   
                 </v-col>
@@ -168,14 +161,6 @@
                                     class=" boton_whats"          
                                 >
                                     <a href="https://api.whatsapp.com/send?phone=5214441787150&text=Hola%20necesito%20información%20sobre%20proyectos%20integrales" class="enlace_boton" target="_blank">Cotizar proyecto <v-icon class="mx-2">mdi-whatsapp</v-icon>           </a>
-                                </v-btn>
-                            </v-col>
-
-                            <v-col>
-                                <v-btn 
-                                    class=" boton"                                                               
-                                >
-                                    <a class="enlace_boton" target="_blank" href="/catalogos/ATIAFOLDER.pdf">Catálogo <v-icon class="mx-2">mdi-arrow-collapse-down</v-icon> </a>
                                 </v-btn>
                             </v-col>
                         </v-row>
@@ -223,7 +208,7 @@
                                 <v-btn 
                                     class=" boton"                                                               
                                 >
-                                    <a class="enlace_boton" target="_blank" href="/catalogos/ATIAFOLDER.pdf">Catálogo <v-icon class="mx-2">mdi-arrow-collapse-down</v-icon> </a>
+                                    <a class="enlace_boton" target="_blank" href="/catalogos/PORTFOLIO_hardware.pdf">Catálogo <v-icon class="mx-2">mdi-arrow-collapse-down</v-icon> </a>
                                 </v-btn>
                             </v-col>
                         </v-row>
@@ -272,18 +257,55 @@
                                     <a href="https://api.whatsapp.com/send?phone=5214441787150&text=Hola%20necesito%20información%20sobre%20etiquetas%20impresas" class="enlace_boton" target="_blank">Cotizar proyecto <v-icon class="mx-2">mdi-whatsapp</v-icon>           </a>
                                 </v-btn>
                             </v-col>
-
-                            <v-col>
-                                <v-btn 
-                                    class=" boton"                                                               
-                                >
-                                    <a class="enlace_boton" target="_blank" href="/catalogos/ATIAFOLDER.pdf">Catálogo <v-icon class="mx-2">mdi-arrow-collapse-down</v-icon> </a>
-                                </v-btn>
-                            </v-col>
                         </v-row>
                     </v-container>                   
                 </v-col>
             </v-row>
+
+            <v-row
+                id="barras"
+                class="justify-center cont_fila  reveal fade-left"
+            >
+                <v-col 
+                    cols="10"
+                    sm="4"
+                    
+                >
+                    <v-img 
+                        class="img_producto mx-auto"
+                        src="../../assets/images/productos/barras.jpg"
+                    >
+                    </v-img>
+                </v-col>
+                <v-col
+                    sm="7"
+                    md="7"
+                    lg="5"
+                >
+                    <v-container>
+                        <h1 class="titulo mb-3">Código de barras</h1>
+                        <p class="texto text-justify mb-5">
+                            Trabajamos con diferentes tipos de códigos de barras, incluyendo los códigos EAN, UPC y QR, ayudamos a las empresas a implementar sistemas de escaneo de códigos de barras para mejorar la eficiencia en la gestión de inventarios y reducir los errores. 
+                        </p>
+                        <p class="texto text-justify mb-5">
+                            Además, tenemos experiencia en la creación de etiquetas de códigos de barras personalizadas para empresas, asegurando que se ajusten a sus necesidades específicas de etiquetado y cumplan con las normas y regulaciones aplicables. También asesoramos a empresas sobre cómo diseñar e imprimir etiquetas de códigos de barras para obtener los mejores resultados y evitar problemas comunes, como la falta de legibilidad o la pérdida de adhesión de la etiqueta.
+                        </p>
+                        <v-row 
+                            class="justify-between"
+                        > 
+                            <v-col>
+                                <v-btn 
+                                    class=" boton_whats"          
+                                >
+                                    <a href="https://api.whatsapp.com/send?phone=5214441787150&text=Hola%20necesito%20información%20sobre%20códigos%20de%20barras" class="enlace_boton" target="_blank">Cotizar proyecto <v-icon class="mx-2">mdi-whatsapp</v-icon>           </a>
+                                </v-btn>
+                            </v-col>
+
+                        </v-row>
+                    </v-container>                   
+                </v-col>
+            </v-row>
+
             
         </v-container>       
     </section>
